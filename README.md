@@ -48,9 +48,9 @@ Transaction 3: 1 ether into accountOne: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368
 
 
 Error Handling
-Check if the balance is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text Insufficient funds! is returned.
+Checking if the balance is sufficient to accomplish the withdraw operation. In case of insufficient funds, the text "Insufficient funds!" is returned.
 ![11](https://user-images.githubusercontent.com/118318397/234149498-83b0f577-debc-409a-a424-20dbd1cc09b0.JPG)
 
 
-Checks if the recipient is equal to either accountOne or accountTwo. The requiere statement returns the text "You don't own this account!" if it does not.
+Checking if the recipient is equal to either accountOne or accountTwo. The require statement returns the text "You don't own this account!" if recipient is not accountOne or accountTwo.
 ![1112](https://user-images.githubusercontent.com/118318397/234149560-c61e4a9c-1baf-4e8a-98b0-0688cc5c38ed.JPG)
