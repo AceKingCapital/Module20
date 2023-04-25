@@ -13,10 +13,10 @@ Steps:
 3. Interact with our deployed smart contract to transfer and withdraw funds.
 
 
-Set up for test run
+Setting up the test run
 Using the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from our contract.
 
-We used the following Ethereum addresses:
+Ethereum addresses:
 
 Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
 
@@ -48,6 +48,7 @@ Transaction 3: 1 ether into accountOne: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368
 
 
 Error Handling
+
 Checking if the balance is sufficient to accomplish the withdraw operation. In case of insufficient funds, the text "Insufficient funds!" is returned.
 ![11](https://user-images.githubusercontent.com/118318397/234149498-83b0f577-debc-409a-a424-20dbd1cc09b0.JPG)
 
